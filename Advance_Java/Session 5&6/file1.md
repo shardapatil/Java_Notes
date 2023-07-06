@@ -43,3 +43,30 @@ The Model contains only the pure application data, it contains no logic describi
 The View presents the model’s data to the user. The view knows how to access the model’s data, but it does not know what this data means or what the user can do to manipulate it. View just represent, displays the application’s data on screen. View page are generally in the format of .html or .jsp in java programming (which is flexible).
 
 The Controller exists between the view and the model. It is where the actual business logic is written. It listens to events triggered by the view (or another external source) and executes the appropriate reaction to these events. In most cases, the reaction is to call a method on the model. Since the view and the model are connected through a notification mechanism, the result of this action is then automatically reflected in the view.
+
+
+                                                    The Lifecycle of a JSP Page
+
+The JSP pages follow these phases:
+
+Translation of JSP Page
+
+Compilation of JSP Page
+
+Classloading (the classloader loads class file)
+
+Instantiation (Object of the Generated Servlet is created).
+
+Initialization ( the container invokes jspInit() method).
+
+Request processing ( the container invokes _jspService() method).
+
+Destroy ( the container invokes jspDestroy() method).
+
+![image](https://github.com/shardapatil/Sharda/assets/53011896/3f638bae-79c4-4624-8a0f-87e9cca10c30)
+
+JSP page is translated into Servlet by the help of JSP translator. The JSP translator is a part of the web server which is responsible for translating the JSP page into Servlet. 
+
+After that, Servlet page is compiled by the compiler and gets converted into the class file. 
+
+Moreover, all the processes that happen in Servlet are performed on JSP later like initialization, committing response to the browser and destroy.
