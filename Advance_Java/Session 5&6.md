@@ -1,4 +1,4 @@
-                                                                 JavaServer Pages   
+                                                            JavaServer Pages   
                                                                  
 JavaServer Pages (JSP) is a technology for developing Webpages that supports dynamic content.
 
