@@ -84,7 +84,6 @@ There are three types of directives:
    
 Syntax of JSP Directive:  <%@ directive attribute="value" %>
 
-
 1. JSP page directive: The page directive defines attributes that apply to an entire JSP page.
 
 Syntax of JSP page directive:  <%@ page attribute="value" %>  
@@ -104,12 +103,14 @@ pageEncoding
 errorPage
 isErrorPage
 
-2. Jsp Include Directive:  The include directive is used to include the contents of any resource it may be jsp file, html file or text file. The include directive includes the original content of the included resource at page translation time (the jsp page is translated only once so it will be better to include static resource).
+2. Jsp Include Directive:  The include directive is used to include the contents of any resource it may be jsp file, html file or text file.
+       The include directive includes the original content of the included resource at page translation time (the jsp page is translated only once so it will be         better to include static resource).
 
 Advantage of Include directive:  Code Reusability
 
 Syntax of include directive:  <%@ include file="resourceName" %>  
 
-3. JSP Taglib directive: The JSP taglib directive is used to define a tag library that defines many tags. We use the TLD (Tag Library Descriptor) file to define the tags. In the custom tag section we will use this tag so it will be better to learn it in custom tag.
+3. JSP Taglib directive: The JSP taglib directive is used to define a tag library that defines many tags.
+           We use the TLD (Tag Library Descriptor) file to define the tags. In the custom tag section we will use this tag so it will be better to learn it in               custom tag.
 
 Syntax JSP Taglib directive:  <%@ taglib uri="uriofthetaglibrary" prefix="prefixoftaglibrary" %> 
