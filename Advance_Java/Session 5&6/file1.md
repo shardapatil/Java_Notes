@@ -114,3 +114,7 @@ Syntax of include directive:  <%@ include file="resourceName" %>
            We use the TLD (Tag Library Descriptor) file to define the tags. In the custom tag section we will use this tag so it will be better to learn it in               custom tag.
 
 Syntax JSP Taglib directive:  <%@ taglib uri="uriofthetaglibrary" prefix="prefixoftaglibrary" %> 
+
+                                                Implicit and Explicit Objects
+                                                
+![image](https://github.com/shardapatil/Sharda/assets/53011896/f1eb99d0-233c-406e-be38-5173d151566e)
