@@ -34,9 +34,9 @@ The Model View Controller (MVC) design pattern specifies that an application con
 
 UML Diagram MVC Design Pattern
 
-image
+![image](https://github.com/shardapatil/Sharda/assets/53011896/7bf8cb78-40e0-4085-8a2d-2be65995062a)
 
-Design components
+                                                    Design components
 
 The Model contains only the pure application data, it contains no logic describing how to present the data to a user. (Its just a data that is shipped across the application like for example from back-end server view and from front-end view to the database. In java programming, Model can be represented by the use of POJO (Plain-old-java-object) which is a simple java class.
 
