@@ -1,4 +1,4 @@
-  JavaServer Pages   
+                                                        JavaServer Pages   
 JavaServer Pages (JSP) is a technology for developing Webpages that supports dynamic content.
 
 This helps developers insert java code in HTML pages by making use of special JSP tags, most of which start with <% and end with %>.
@@ -26,7 +26,8 @@ Navigation Control is centralized
 
 Easy to maintain the large application
 
-image
+![image](https://github.com/shardapatil/Sharda/assets/53011896/1db994f6-b75e-47b7-9858-d65adb3cfcb1)
+
 
                                                       MVC Design Pattern
 The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects. MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI / interaction layer of an application. You’re still going to need business logic layer, maybe some service layer and data access layer.
