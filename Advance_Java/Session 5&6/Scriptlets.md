@@ -31,3 +31,6 @@ So it doesn't get memory at each request.
 Syntax of JSP declaration tag: 
 
 <%!  field or method declaration %>  
+
+![image](https://github.com/shardapatil/Sharda/assets/53011896/4b125c97-8821-456d-a08e-4746e22df1fa)
+
