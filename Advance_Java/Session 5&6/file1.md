@@ -49,19 +49,19 @@ The Controller exists between the view and the model. It is where the actual bus
 
 The JSP pages follow these phases:
 
-Translation of JSP Page
+1. Translation of JSP Page
 
-Compilation of JSP Page
+2. Compilation of JSP Page
 
-Classloading (the classloader loads class file)
+3. Classloading (the classloader loads class file)
 
-Instantiation (Object of the Generated Servlet is created).
+4. Instantiation (Object of the Generated Servlet is created).
 
-Initialization ( the container invokes jspInit() method).
+5. Initialization ( the container invokes jspInit() method).
 
-Request processing ( the container invokes _jspService() method).
+6. Request processing ( the container invokes _jspService() method).
 
-Destroy ( the container invokes jspDestroy() method).
+7. Destroy ( the container invokes jspDestroy() method).
 
 ![image](https://github.com/shardapatil/Sharda/assets/53011896/3f638bae-79c4-4624-8a0f-87e9cca10c30)
 
