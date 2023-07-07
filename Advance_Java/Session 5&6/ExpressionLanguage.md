@@ -12,6 +12,7 @@ Here expr specifies the expression itself. The most common operators in JSP EL a
 
 For example, the above syntax <jsp:setProperty> tag can be written with an expression 
 like:
+
 ``` <jsp:setProperty name="box" property="perimeter"  value="${2*box.width+2*box.height}"/> ```
 
 When the JSP compiler sees the ${} form in an attribute, it generates code to evaluate the expression and substitues the value of expresson.
