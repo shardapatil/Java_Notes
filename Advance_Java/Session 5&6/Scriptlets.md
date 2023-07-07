@@ -59,3 +59,16 @@ Following is the syntax of the JSP comments:   ``` <%-- This is JSP comment --%>
 ![image](https://github.com/shardapatil/Sharda/assets/53011896/2b006cc7-6490-46c5-9783-5aa9797b8d93)
 
 
+                                                                      JSP Actions
+                                                                      
+JSP actions use constructs in XML syntax to control the behavior of the servlet engine. 
+
+You can dynamically insert a file, reuse JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.
+
+There is only one syntax for the Action element, as it conforms to the XML standard: ``` <jsp:action_name attribute="value" /> ```
+
+Action elements are basically predefined functions. Following table lists out the available JSP Actions:
+
+![image](https://github.com/shardapatil/Sharda/assets/53011896/b21c4a16-6874-44f4-b87c-c0e2aa3bf16f)
+
+
