@@ -56,3 +56,6 @@ A JSP comment is useful when you want to hide or "comment out", a part of your J
 
 Following is the syntax of the JSP comments:   ``` <%-- This is JSP comment --%> ```
 
+![image](https://github.com/shardapatil/Sharda/assets/53011896/2b006cc7-6490-46c5-9783-5aa9797b8d93)
+
+
