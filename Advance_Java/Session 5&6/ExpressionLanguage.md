@@ -16,3 +16,7 @@ like:
 ``` <jsp:setProperty name="box" property="perimeter"  value="${2*box.width+2*box.height}"/> ```
 
 When the JSP compiler sees the ${} form in an attribute, it generates code to evaluate the expression and substitues the value of expresson.
+
+![image](https://github.com/shardapatil/Sharda/assets/53011896/b4914945-94b0-456c-b4ef-a1dc45cde5d3)
+
+![image](https://github.com/shardapatil/Sharda/assets/53011896/a139d510-e46b-4278-a33e-26744d290825)
