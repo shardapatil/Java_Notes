@@ -7,3 +7,12 @@ Simple Syntax: Typically, when you specify an attribute value in a JSP tag, you 
 
 JSP EL allows you to specify an expression for any of these attribute values. 
 A simple syntax for JSP EL is as follows:  ``` ${expr} ```
+
+Here expr specifies the expression itself. The most common operators in JSP EL are . and []. These two operators allow you to access various attributes of Java Beans and built-in JSP objects.
+
+For example, the above syntax <jsp:setProperty> tag can be written with an expression 
+like:
+``` <jsp:setProperty name="box" property="perimeter" 
+ value="${2*box.width+2*box.height}"/> ```
+
+When the JSP compiler sees the ${} form in an attribute, it generates code to evaluate the expression and substitues the value of expresson.
