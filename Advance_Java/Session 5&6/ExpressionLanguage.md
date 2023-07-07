@@ -20,3 +20,9 @@ When the JSP compiler sees the ${} form in an attribute, it generates code to ev
 ![image](https://github.com/shardapatil/Sharda/assets/53011896/b4914945-94b0-456c-b4ef-a1dc45cde5d3)
 
 ![image](https://github.com/shardapatil/Sharda/assets/53011896/a139d510-e46b-4278-a33e-26744d290825)
+
+
+                                                            The Scope Objects
+                                                            
+The pageScope, requestScope, sessionScope, and applicationScope variables provide access to variables stored at each scope level.
+For example, if you need to explicitly access the box variable in the application scope, you can access it through the applicationScope variable as applicationScope.box.
