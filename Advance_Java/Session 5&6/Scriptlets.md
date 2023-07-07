@@ -48,5 +48,11 @@ You can write the XML equivalent of the above syntax as follows:
  
 </jsp:expression>
 ```
+                                                                JSP Comments
+                                                                
+JSP comment marks the text or the statements that the JSP container should ignore. 
 
+A JSP comment is useful when you want to hide or "comment out", a part of your JSP page.
+
+Following is the syntax of the JSP comments:   ``` <%-- This is JSP comment --%> ```
 
