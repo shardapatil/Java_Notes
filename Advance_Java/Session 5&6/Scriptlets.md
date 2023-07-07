@@ -13,13 +13,13 @@ declaration tag
                                                         
 A scriptlet tag is used to execute java source code in JSP. 
 
-Syntax is as follows:  <%  java source code %>  
+Syntax is as follows: ``` <%  java source code %>  ```
 
                                                             JSP expression tag
 
 The code placed within JSP expression tag is written to the output stream of the response. So you need not write out.print() to write data. It is mainly used to print the values of variable or method.
 
-Syntax of JSP expression tag:  <%=  statement %>  
+Syntax of JSP expression tag: ``` <%=  statement %>  ```
 
                                                             JSP Declaration Tag
 The JSP declaration tag is used to declare fields and methods.
@@ -28,7 +28,7 @@ The code written inside the jsp declaration tag is placed outside the service() 
 
 So it doesn't get memory at each request.
 
-Syntax of JSP declaration tag:  <%!  field or method declaration %>  
+Syntax of JSP declaration tag: ``` <%!  field or method declaration %>  ```
 
 ![image](https://github.com/shardapatil/Sharda/assets/53011896/4b125c97-8821-456d-a08e-4746e22df1fa)
 
@@ -37,7 +37,7 @@ Syntax of JSP declaration tag:  <%!  field or method declaration %>
 A JSP expression element contains a scripting language expression that is evaluated, converted to a String, and inserted where the expression appears in the JSP file.Because the value of an expression is converted to a String, you can use an expression within a line of text, whether or not it is tagged with HTML, in a JSP file.
 
 The expression element can contain any expression that is valid according to the Java Language Specification but you cannot use a semicolon to end an expression.
-Following is the syntax of JSP Expression:  <%= expression %>
+Following is the syntax of JSP Expression:  ``` <%= expression %> ```
 
 You can write the XML equivalent of the above syntax as follows:
 
