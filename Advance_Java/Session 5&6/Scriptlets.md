@@ -41,10 +41,12 @@ Following is the syntax of JSP Expression:  <%= expression %>
 
 You can write the XML equivalent of the above syntax as follows:
 
-```<jsp:expression>
+```
+<jsp:expression>
 
  expression
  
-</jsp:expression>```
+</jsp:expression>
+```
 
 
