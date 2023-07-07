@@ -11,9 +11,9 @@ declaration tag
 
                                                         JSP scriptlet tag
                                                         
-A scriptlet tag is used to execute java source code in JSP. Syntax is as follows:
+A scriptlet tag is used to execute java source code in JSP. 
 
-<%  java source code %>  
+Syntax is as follows:  <%  java source code %>  
 
                                                             JSP expression tag
 
