@@ -71,9 +71,9 @@ JDBC driver implementations vary because of the wide variety of operating system
 
 Type 1: JDBC-ODBC Bridge Driver
 
-  In a Type 1 driver, a JDBC bridge is used to access ODBC drivers installed on each client machine. Using ODBC, requires configuring on your system a Data 
-  Source Name (DSN) that represents the target database. When Java first came out, this was a useful driver because most databases only 
-  supported ODBC access but now this type of driver is recommended only for experimental use or when no other alternative is available.
+     In a Type 1 driver, a JDBC bridge is used to access ODBC drivers installed on each client machine. Using ODBC, requires configuring on your system a Data 
+     Source Name (DSN) that represents the target database. When Java first came out, this was a useful driver because most databases only 
+     supported ODBC access but now this type of driver is recommended only for experimental use or when no other alternative is available.
 
 Type 2: JDBC-Native API
 
